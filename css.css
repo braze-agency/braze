@@ -137,9 +137,6 @@ div > h4 {
 
 
 
-
-
-
 .lnr-laptop-phone, 
 .lnr-screen, 
 .lnr-magnifier, 
@@ -157,3 +154,13 @@ div > h4 {
   width: 80px;
   padding-bottom: 2%;
 }
+
+.hot,
+.lnr-screen, 
+.lnr-bold, 
+.lnr-printer, 
+.lnr-thumbs-up,
+.lnr-question-circle {
+  color: #E91E63;
+}
+
