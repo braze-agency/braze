@@ -73,6 +73,17 @@ a:hover {
   }
 }
 
+.social-media {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 1em 1em 0;
+  width: 115px;
+
+  li {
+    padding: .25em;
+  }
+}
 
 main h2:first-of-type {
   margin-top: 0;
@@ -116,7 +127,7 @@ div > h4 {
     &:nth-child(even) {
       margin-right: 0;
     }
-    
+
     img {
       width: 100%;
     }
@@ -127,21 +138,18 @@ div > h4 {
   }
 
   .box-sm {
-    margin-bottom: 5%;
+    margin: 3% 0;
     width: 30%;
-
-    &:last-of-type {
-      margin: 0 auto;
-    }
 
     h4 {
       text-align: center;
     }
   }
-  
-  button {
+
+  .button {
     @include reversed-element;
-    border: none;
+    display: inline-block;
+    font-size: 75%;
     padding: 1em;
   }
 }
