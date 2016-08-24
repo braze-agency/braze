@@ -82,7 +82,7 @@ div > h4 {
     .box-row .box p {
       width: 100%; }
   .box-row .box-sm {
-    margin: 3% 0;
+    margin: 3vh 0;
     width: 30%; }
     .box-row .box-sm h4 {
       text-align: center; }
@@ -93,10 +93,6 @@ div > h4 {
     display: inline-block;
     font-size: 75%;
     padding: 1em; }
-
-@-moz-document url-prefix() {
-  .box-row .box {
-    margin-bottom: 1.5em; } }
 
 .box-row .material-box {
   background: #1a1a1a;
@@ -150,3 +146,5 @@ div > h4 {
 .lnr-thumbs-up,
 .lnr-question-circle {
   color: #e91e63; }
+
+/*# sourceMappingURL=css.css.map */
